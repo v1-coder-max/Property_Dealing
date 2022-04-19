@@ -1,0 +1,190 @@
+body{
+    font-family: 'Syne Mono', monospace;
+}
+nav a
+{
+    color:black !important;
+    font-size:20px;
+    text-transform: capitalize;
+    padding:5px,10px;
+    margin:0px 10px;
+    position:relative;
+    transition: all .5s;
+    border-radius: 10%;
+}
+nav a:hover
+{
+    background-color: #6e1e3c !important;
+    color:white !important;
+}
+nav a::before
+{
+    content:"";
+    position: absolute;
+    top:12px;
+    left:12px;
+    width: 20px;
+    height: 20px;
+    border:3px solid #2daeb3;
+    border-width: 3px 0 0 3px;
+    opacity:0;
+    transition: all .3s;
+}
+nav a:hover::before
+{
+    opacity:1;
+    top:-8px;
+    left:-8px;
+}
+nav a::after
+{
+    content:"";
+    position: absolute;
+    bottom:12px;
+    right:12px;
+    width: 20px;
+    height: 20px;
+    border:3px solid #2daeb3;
+    border-width: 0 3px 3px 0;
+    opacity:0;
+    transition: all .3s;
+}
+nav a:hover::after
+{
+    opacity:1;
+    bottom:-8px;
+    right:-8px;
+}
+.phone-icon
+{
+    border:.1rem solid green;
+    color:black;
+    padding: .5rem;
+    border-radius: 50%;
+}
+.phone-icon:hover
+{
+    color:white;
+    background: green;
+}
+.btn_green
+{
+    color:green;
+    border:.1rem solid green;
+    background: transparent;
+}
+.btn_green:hover
+{
+    color:white;
+    background: green;
+}
+.text-green
+{
+    color:green;
+}
+.text-slaint
+{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.banner-info
+{
+    min-height:calc(100vh - 111px);
+    position: relative;
+}
+.banner_info-footer
+{
+    background: red;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.banner-img
+{
+    min-height: calc(100vh - 111px);
+    width: 100%;
+    background: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.banner_img-footer
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    color:white;
+    background: green;
+}
+.title-underline
+{
+    width: 12rem;
+    height: .4rem;
+    margin: 0 auto;
+    position: relative;
+}
+.title-underline-center
+{
+    position: absolute;
+    height: .6rem;
+    background: green;
+    width: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.blockquote
+{
+    border-left: .3rem solid red;
+    border-right: .3rem solid red;
+}
+.properties
+{
+    background: #D3D3D3;
+}
+.img-container
+{
+    position: relative;
+}
+.featured-icons
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50);
+}
+.featured-icons-left
+{
+    background: red;
+    color:white;
+    padding: .3rem;
+    display: inline-block;
+}
+.featured-icons-right
+{
+    background: green;
+    color: white;
+    padding: .3rem;
+    display: inline-block;
+}
+.contact
+{
+    background: green;
+    color: white;
+}
+.contact-btn
+{
+    background: transparent;
+    border: .1rem solid white;
+    color:white;
+}
+.contact-btn:hover
+{
+    background: red;
+    border: .1rem solid white;
+    color: white;
+}

@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--bootstrap cdn-->  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  
+  <!--Font awesome-->
+    <script src="https://kit.fontawesome.com/d7cfade8a2.js" crossorigin="anonymous"></script>   
+
+  <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">  
+
+  <!--main css-->
+    <link rel="stylesheet" href="main.css">   
+    
+    <title>Document</title>
+</head>
+<body>
+ <!--navigationn bar section-->
+ <nav class="navbar navbar-expand-lg navbar-expand-md px-5">
+   <a href="#" class="navbar-brand">
+     <img src="logo.jpg" alt="" style="width:85px ; height:85px;">
+   </a>
+   <button type="button" class=navbar-toggler data-target="#ppnavbar" data-toggle="collapse">
+     <span>
+       <i class="fas fa-home fa-3x"></i>
+     </span>
+    </button>
+   <div class="collapse navbar-collapse" id="ppnavbar">
+   <ul class="navbar-nav mx-auto">
+     <li class="nav-item">
+       <a href="#home" class="nav-link">Home</a>
+     </li>
+     <li class="nav-item">
+      <a href="#about" class="nav-link">About</a>
+    </li>
+    <li class="nav-item">
+      <a href="#properties" class="nav-link">Featured</a>
+    </li>
+    <li class="nav-item">
+      <a href="#contact" class="nav-link">Contact</a>
+    </li>
+   </ul>
+  </div>
+  <div class="d-none d-lg-flex align-items-baseline">
+    <p class="text-black mx-4">
+      <span class=phone-icon>
+        <i class="fas fa-phone fs-fw"></i>
+      </span>
+      +91-123456789
+    </p>
+    <button type="button" class="btn btn_green text-capitalize">Book Now</button>
+  </div>
+    
+ </nav>
+ <!--end navigation bar-->
+ <!--start of info section-->
+  <section class="info" id="info">
+    <div class="container-fluid">
+      <div class="row">
+        <!--start of info text-->
+          <div class="col-lg-5 banner-info text-capitalize py-5 px-5">
+            <p class="text-green text-slaint">Vishal Sansaar</p>
+            <h1>Model Villas : Life is here</h1>
+            <p class="text-green">
+              <span><i class="fas fa-map"></i></span>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, sunt!
+            </p>
+            <button type="button" class="btn btn_green">Read More</button>
+            <div class="banner_info-footer d-flex justify-content-around py-2">
+             <!--first item of footer-->
+              <div class="text-white text-center">
+                <i class="fas fa-bed"></i>
+                <p class="mb-0">bed</p>
+                <p>4</p>
+              </div>
+             <!--last item of footer--> 
+             <!--first item of footer-->
+             <div class="text-white text-center">
+              <i class="fas fa-bath"></i>
+              <p class="mb-0">bath</p>
+              <p>2</p>
+             </div>
+             <!--last item of footer--> 
+             <!--first item of footer-->
+              <div class="text-white text-center">
+              <i class="fas fa-warehouse"></i>
+              <p class="mb-0">warehouse</p>
+              <p>4</p>
+             </div>
+           <!--last item of footer--> 
+           <!--first item of footer-->
+           <div class="text-white text-center">
+            <i class="fas fa-paw"></i>
+            <p class="mb-0">pets</p>
+            <p>allowed</p>
+           </div>
+           <!--last item of footer--> 
+           <!--first item of footer-->
+           <div class="text-white text-center">
+            <i class="fa fa-money"></i>
+            <p class="mb-0">Deposit</p>
+            <p><i class="fa fa-inr"></i>30,000</p>
+           </div>
+           <!--last item of footer--> 
+            </div>
+          </div> 
+        <!--end of info text-->
+        <!--start of img section-->
+          <div class="col-lg-7 banner-img">
+            <div class="banner_img-footer px-3">
+              <p class="text-white mb-0">Rent Price</p>
+              <h4 class="text-white">
+                <i class="fa fa-inr"></i>
+                15,000
+              </h4>
+            </div>
+          </div> 
+        <!--end of img section-->
+      </div>
+    </div>
+  </section>
+ <!--end of info section-->
+
+ <!--start of about us section-->
+  <section class="about my-5" id="about">
+    <div class="container-fluid">
+      <div class="row">
+        <!--image slider-->
+        <div class="col-10 col-md-5 col-lg-5 mx-auto my-5 py-3">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="bg.jpg" class="d-block w-100 rounded-circle" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="h2.jpg" class="d-block w-100 rounded-circle" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="h3.jpg" class="d-block w-100 rounded-circle" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+        <!--about us info-->
+        <div class="col-10 col-md-7 col-lg-7 mx-auto my-5 py-3">
+          <div class="row">
+            <!--title-->
+            <div class="col-10 text-center mb-5">
+              <h3 class="text-green text-slaint">Property House</h3>
+              <h1 class="text-capitalize">About Us</h1>
+              <div class="title-underline my-3 bg-secondary">
+                <div class="title-underline-center"></div>
+              </div>
+              <p class="w-75 mx-auto">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nemo deleniti.
+              </p>
+              <!--end of title-->
+              <h3 class="text-uppercase mb-4">book today</h3>   
+              <blockquote class="blockquote text-center px-3">
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer class="blockquote-footer">Someone famous  <cite title="Source Title">Vishal Nama</cite></footer>
+              </blockquote>
+              <p class="mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos debitis iure, velit quam distinctio sapiente.
+              </p>
+              <a href="#" class="btn btn_green">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!--end of about us section-->
+
+ <!--start of property section-->
+    <section class="properties py-5" id="properties">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h3 class="text-green text-slaint">Property House</h3>
+            <h1 class="text-capitalize">Properties</h1>
+            <div class="title-underline my-3 bg-secondary">
+              <div class="title-underline-center"></div>
+            </div>
+            <p class="w-75 mx-auto">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nemo deleniti.
+            </p>
+          </div>  
+        </div>
+        <div class="row">
+          <!--first card-->
+            <div class="col-12 col-md-6 col-lg-4 mx-auto py-3">
+              <div class="card">
+                <div class="container-fluid img-container">
+                  <img src="bg.jpg" alt="not display" class="card-img-top rounded-circle pt-3">
+                  <div class="featured-icons">
+                    <a href="#" class="featured-icons-left">
+                      <i class="fas fa-chevron-left"></i>
+                    </a>
+                    <a href="#" class="featured-icons-right">
+                      <i class="fas fa-chevron-right"></i>
+                    </a>
+                  </div>
+                </div>
+                <!--card-body-->
+                <div class="card-body">
+                  <div class="card-title text-capitalize text-center">
+                    <h5 class="mb-3">
+                      Nice properties in Jaipur
+                    </h5>
+                    <p class="text-center">
+                      <span class="text-green">
+                        <i class="fas fa-map-marker-alt"></i>
+                      </span>
+                      Near railway station, Jagatpura jaipur
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <!--end of card-->
+          <!--second card-->
+          <div class="col-12 col-md-6 col-lg-4 mx-auto py-3">
+            <div class="card">
+              <div class="container-fluid img-container">
+                <img src="h2.jpg" alt="not display" class="card-img-top rounded-circle pt-3">
+                <div class="featured-icons">
+                  <a href="#" class="featured-icons-left">
+                    <i class="fas fa-chevron-left"></i>
+                  </a>
+                  <a href="#" class="featured-icons-right">
+                    <i class="fas fa-chevron-right"></i>
+                  </a>
+                </div>
+              </div>
+              <!--card-body-->
+              <div class="card-body">
+                <div class="card-title text-capitalize text-center">
+                  <h5 class="mb-3">
+                    Nice properties in Jaipur
+                  </h5>
+                  <p class="text-center">
+                    <span class="text-green">
+                      <i class="fas fa-map-marker-alt"></i>
+                    </span>
+                    Near railway station, Jagatpura jaipur
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--end of card-->
+        <!--third card-->
+        <div class="col-12 col-md-6 col-lg-4 mx-auto py-3">
+          <div class="card">
+            <div class="container-fluid img-container">
+              <img src="h3.jpg" alt="not display" class="card-img-top rounded-circle pt-3">
+              <div class="featured-icons">
+                <a href="#" class="featured-icons-left">
+                  <i class="fas fa-chevron-left"></i>
+                </a>
+                <a href="#" class="featured-icons-right">
+                  <i class="fas fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+            <!--card-body-->
+            <div class="card-body">
+              <div class="card-title text-capitalize text-center">
+                <h5 class="mb-3">
+                  Nice properties in Jaipur
+                </h5>
+                <p class="text-center">
+                  <span class="text-green">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </span>
+                  Near railway station, Jagatpura jaipur
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!--end of card-->
+        </div>
+      </div>
+    </section>
+ <!--end of property section-->
+
+ <!--start of contact section-->
+    <section class="contact py-3" id="contact">
+      <div class="container-fluid">
+        <div class="col-12 col-md-6 mx-auto my-3">
+          <h3 class="text-capitalize">
+            <span class="contact-icon">
+              <i class="fas fa-envelope"></i>
+              Sign up for more informatin
+            </span>
+          </h3>
+        </div>
+        <div class="col-10 col-md-6 mx-auto mx-2">
+          <form action="" class="form-inline">
+            <input type="text" name="" value="" class="form-control text-capitalize" placeholder="Enter Email">
+            <button type="submit" name="button" class="mx-2 text-capitalize contact-btn">Sign up</button>
+          </form>
+        </div>
+      </div>
+    </section>
+ <!--end of featured section-->
+
+ <!--extra scripts-->   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+</html>
